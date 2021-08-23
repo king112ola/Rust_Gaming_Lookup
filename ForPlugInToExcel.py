@@ -63,18 +63,13 @@ for i in range(urlss.__len__()):
     
     
     checkForAdapt =  desp
-    type = "3-dime"
-
-  
+    adapt = ""
+    types = ""
+    
     print("Name: "+Name )
-   
     print("URL: "+url)
     print("Desc: "+desp)
     
-
-    adapt = ""
-    types = ""
-
     if "bevy" in (checkForAdapt.lower() or Name.lower()): 
         adapt = "BEVY"
         print("Adaptive Engine: " +adapt)
